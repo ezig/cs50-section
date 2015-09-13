@@ -7,17 +7,18 @@
  * iterating through an array
  */
  
- #include <stdio.h>
- #include <cs50.h>
- #include <string.h>
+#include <stdio.h>
+#include <cs50.h>
+#include <string.h>
  
- int main(void) 
- {
+int main(void)
+{
     string name = "David Malan";
     
     // correct but not very good
     /*
-     *  for (int i = 0; i < strlen(name); i++) {
+     *  for (int i = 0; i < strlen(name); i++)
+     *  {
      *      printf("%c\n", name[i]);
      *  }
      */
@@ -25,7 +26,8 @@
     // much better
     int len = strlen(name);
     
-    for (int i = 0; i < len; i++) {
+    for (int i = 0; i < len; i++)
+    {
         printf("%c\n", name[i]);
     }
- }
+}

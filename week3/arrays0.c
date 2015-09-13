@@ -6,13 +6,13 @@
  * Goal: Show two different ways to initialize an array
  */
  
- #include <stdio.h>
+#include <stdio.h>
  
- int main(void) 
- {
+int main(void)
+{
     // fill in the arrays with the numbers 50, 51, 52
     int nums[3];
     
     // now use shorthand notation to do the same
     int newNums[];
- }
+}

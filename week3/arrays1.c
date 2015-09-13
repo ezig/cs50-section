@@ -7,13 +7,13 @@
  * iterating through an array
  */
  
- #include <stdio.h>
- #include <cs50.h>
- #include <string.h>
+#include <stdio.h>
+#include <cs50.h>
+#include <string.h>
  
- int main(void) 
- {
+int main(void)
+{
     string name = "David Malan";
     
     // print out the string, one character on each line
- }
+}
