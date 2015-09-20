@@ -1,4 +1,4 @@
-all: arrays0 arrays0-sln arrays1 arrays1-sln ascii ascii-sln
+all: arrays0 arrays0-sln arrays1 arrays1-sln ascii ascii-sln scope
 
 arrays0:
 	g++ -o arrays0 arrays0.c -Wall
@@ -30,6 +30,8 @@ args1:
 args1-sln:
 	g++ -o args1-sln args1-sln.c -Wall
 	
+scope:
+	g++ -o scope scope.c -Wall
 
 clean:
-	rm -f *.o a.out core arrays0 arrays0-sln arrays1 arrays1-sln ascii ascii-sln args0 args0-sln args1 args1-sln
+	rm -f *.o a.out core arrays0 arrays0-sln arrays1 arrays1-sln ascii ascii-sln args0 args0-sln args1 args1-sln scope
