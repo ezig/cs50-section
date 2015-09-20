@@ -1,5 +1,5 @@
 /*
- * args0.c
+ * scope.c
  * Ezra Zigmond
  * CS50 week3
  *

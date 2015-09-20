@@ -8,9 +8,11 @@
  
 #include <stdio.h>
 #include <stdlib.h>
+#include <cs50.h>
  
-int main(int argc, char *argv[])
+int main(int argc, string argv[])
 {
+    // make the program crash if the number of arguments is odd
     if ((argc - 1) % 2)
     {
         abort();

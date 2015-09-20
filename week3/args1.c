@@ -7,8 +7,9 @@
  */
  
 #include <stdio.h>
- 
-int main(int argc, char *argv[])
+#include <cs50.h>
+
+int main(int argc, string argv[])
 {
     // write a program that will print out all of the command-line arguments
     // on their own lines

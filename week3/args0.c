@@ -8,8 +8,9 @@
  
 #include <stdio.h>
 #include <stdlib.h>
+#include <cs50.h>
  
-int main(int argc, char *argv[])
+int main(int argc, string argv[])
 {
     // write a program that will crash if 
     // passed an odd number of command-line args
