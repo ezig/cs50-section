@@ -15,5 +15,11 @@ int main(void)
 {
     string name = "David Malan";
     
+    int len = strlen(name);
+    
     // print out the string, one character on each line
+    for (int i = 0; i < len; i++)
+    {
+        printf("%c\n", name[i]);
+    }
 }
