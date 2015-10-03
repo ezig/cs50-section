@@ -1,5 +1,5 @@
 /*
-* file-io.c
+* malloc.c
 * Ezra Zigmond
 * CS50 week5
 *
