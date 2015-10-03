@@ -14,8 +14,4 @@ int main(int argc, string argv[])
 {
     // write a program that will crash if 
     // passed an odd number of command-line args
-    if (argc % 2 == 0)
-    {
-        abort();
-    }
 }

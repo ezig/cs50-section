@@ -11,10 +11,4 @@
 int main(void)
 {
     // print out the uppercase alphabet on one line
-    for(char c = 'A'; c <= 'Z'; c++)
-    {
-        printf("%c", c);
-    }
-    
-    printf("\n");
 }
