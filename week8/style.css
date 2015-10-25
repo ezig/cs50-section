@@ -1,0 +1,11 @@
+body {
+	background-color: lightblue;
+}
+
+#nice_color {
+	color: salmon;
+}
+
+.nice_font {
+	font-family: "Brush Script MT", cursive
+}
